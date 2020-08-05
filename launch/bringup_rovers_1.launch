@@ -1,0 +1,12 @@
+<launch>
+
+	<!-- COMMON_CAMERA_APPLICATION {CAMERA_ROBOT} -->
+	<include file="$(find common_camera_application)/launch/camera_robot1.launch"/>
+	
+	<!-- COMMON_ARDUINO_APPLICATION {MOTOR_CONTROL} -->
+	<include file="$(find common_arduino_application)/launch/robot1_motor_control.launch"/>
+	
+	<!-- COMMON_ROVERS_APPLICATION {LIDAR} -->
+	<include file="$(find common_rovers_application)/launch/hokuyo_robot1.launch"/>
+
+</launch>

@@ -16,10 +16,10 @@
 
 # Initialization
 1. roscore [MASTER PC]
-2. bringup [ROVERS]
+2. bringup_rovers_[ROVERS_NO]
 	1. [MOTOR CONTROL]
 		1. roslaunch common_arduino_application robot1_motor_control.launch [ROVERS 1]
-		2. roslaunch common_arduino_application robot1_motor_control.launch [ROVERS 2]
+		2. roslaunch common_arduino_application robot2_motor_control.launch [ROVERS 2]
 		
 	2. [CAMERA]
 		1. roslaunch common_camera_application camera_robot1.launch [ROVERS 1]
