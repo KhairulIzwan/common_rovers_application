@@ -1,0 +1,6 @@
+<launch>
+
+	<!-- COMMON_CAMERA_APPLICATION {CAMERA_ROBOT} -->
+	<include file="$(find common_camera_application)/launch/camera_mate_preview.launch"/>
+
+</launch>
