@@ -7,8 +7,11 @@
 4. urg_node **or** rplidar
 
 **IMPORTANT**
+
 [MASTER] : 172.20.10.3 : pi
+
 [ROVERS 1] : 172.20.10.5 : mate-pi
+
 [ROVERS 2] : 172.20.10.9 : mate-pi2
 
 # Initialization
