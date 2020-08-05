@@ -16,15 +16,18 @@
 
 # Initialization
 1. roscore [MASTER PC]
-2. [MOTOR CONTROL]
-	1. roslaunch common_arduino_application robot1_motor_control.launch [ROVERS 1]
-	2. roslaunch common_arduino_application robot1_motor_control.launch [ROVERS 2]
-3. [CAMERA]
-	1. roslaunch common_camera_application camera_robot1.launch [ROVERS 1]
-	2. roslaunch common_camera_application camera_robot2.launch [ROVERS 2]
-4. [LIDAR]
-	1. roslaunch common_camera_application camera_robot1.launch [ROVERS 1]
-	2. roslaunch common_camera_application camera_robot2.launch [ROVERS 2]
+2. bringup [ROVERS]
+	1. [MOTOR CONTROL]
+		1. roslaunch common_arduino_application robot1_motor_control.launch [ROVERS 1]
+		2. roslaunch common_arduino_application robot1_motor_control.launch [ROVERS 2]
+		
+	2. [CAMERA]
+		1. roslaunch common_camera_application camera_robot1.launch [ROVERS 1]
+		2. roslaunch common_camera_application camera_robot2.launch [ROVERS 2]
+		
+	3. [LIDAR]
+		1. roslaunch common_rovers_application hokuyo_robot1.launch [ROVERS 1]
+		2. roslaunch common_rovers_application hokuyo_robot2.launch [ROVERS 2]
 	
 ## Camera Preview
 1. roslaunch common_camera_application camera_robot1.launch [YOUR PC]
