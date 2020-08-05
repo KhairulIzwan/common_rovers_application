@@ -1,0 +1,16 @@
+<launch>
+
+	<!-- COMMON_LASERSCAN_APPLICATION {ROBOT 1} -->
+	<node	pkg="common_laserscan_application" 
+		name="robot1_laserscan" 
+		type="robot1_read_laser.py"> 
+		<!-- output="screen"> -->
+	</node>
+
+	<!-- COMMON_LASERSCAN_APPLICATION {ROBOT 2} -->
+	<node	pkg="common_laserscan_application" 
+		name="robot2_laserscan" 
+		type="robot2_read_laser.py"> 
+		<!-- output="screen"> -->
+	</node>
+</launch>

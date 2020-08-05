@@ -40,3 +40,8 @@
 	1. roslaunch common_rovers_application colored_tracking.launch [YOUR PC]
 	
 2. [COLORED TRACKING WITH ROI]
+	1. roslaunch common_rovers_application roi_colored_tracking.launch [YOUR PC]
+	
+## Laser Reading
+1. [TESTING] : Read "0" angle
+	1. 	
