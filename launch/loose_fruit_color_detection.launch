@@ -1,0 +1,6 @@
+<launch>
+
+	<!-- LOOSE FRUIT DETECTION {COLOR ONLY} -->
+	<include file="$(find loose_fruit_detection)/launch/color_detection.launch"/>
+
+</launch>

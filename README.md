@@ -43,5 +43,5 @@
 	1. roslaunch common_rovers_application roi_colored_tracking.launch [YOUR PC]
 	
 ## Laser Reading
-1. [TESTING] : Read "0" angle
-	1. 	
+1. [Obstacle Detection on Angle: 0]
+	1. roslaunch common_rovers_application obstacle_detection.launch [YOUR PC]
