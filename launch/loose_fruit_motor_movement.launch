@@ -1,0 +1,21 @@
+<launch>
+
+	<!-- LOOSEFRUIT_MOVEMENT {loose_fruit_movement} -->
+	<node	pkg="loosefruit_movement" 
+		name="loosefruit_motor_robot1" 
+		type="robot1_motor_tracking_node.py"> 
+		<!-- output="screen"> -->
+		
+	</node>
+	
+	<!-- LOOSEFRUIT_MOVEMENT {loose_fruit_movement} -->
+	<node	pkg="loosefruit_movement" 
+		name="loosefruit_motor_robot2" 
+		type="robot2_motor_tracking_node.py"> 
+		<!-- output="screen"> -->
+		
+	</node>
+	
+	
+
+</launch>

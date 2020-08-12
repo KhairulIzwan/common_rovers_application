@@ -1,0 +1,21 @@
+<launch>
+
+	<!-- LOOSEFRUIT_CLASSIFICATION {loose_fruit_detector} -->
+	<node	pkg="loosefruit_classification" 
+		name="loosefruit_vision_robot1" 
+		type="loose_fruit_detector_robot1.py"> 
+		<!-- output="screen"> -->
+		
+	</node>
+
+	<!-- LOOSEFRUIT_CLASSIFICATION {loose_fruit_detector} -->
+	<node	pkg="loosefruit_classification" 
+		name="loosefruit_vision_robot2" 
+		type="loose_fruit_detector_robot2.py"> 
+		<!-- output="screen"> -->
+		
+	</node>
+	
+	
+
+</launch>
